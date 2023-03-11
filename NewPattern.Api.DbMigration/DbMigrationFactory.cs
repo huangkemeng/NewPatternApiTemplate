@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
-using NewPattern.Api.Infrastructure.EfCore;
+using RenameMe.Api.Infrastructure.EfCore;
 
-namespace NewPattern.Api.DbMigration
+namespace RenameMe.Api.DbMigration
 {
     public class DbMigrationFactory : IDesignTimeDbContextFactory<SqlDbContext>
     {

@@ -1,4 +1,4 @@
-﻿namespace NewPattern.Api.Infrastructure.EfCore.Entities.Bases
+﻿namespace RenameMe.Api.Infrastructure.EfCore.Entities.Bases
 {
     /// <summary>
     /// 多对多关系表请基于本接口

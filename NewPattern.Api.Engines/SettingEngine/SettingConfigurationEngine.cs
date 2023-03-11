@@ -1,9 +1,9 @@
 ﻿using Autofac;
 using Microsoft.Extensions.Configuration;
-using NewPattern.Api.Engines.Bases;
-using NewPattern.Api.Infrastructure.Bases;
+using RenameMe.Api.Engines.Bases;
+using RenameMe.Api.Infrastructure.Bases;
 
-namespace NewPattern.Api.Engines.SettingEngine
+namespace RenameMe.Api.Engines.SettingEngine
 {
     [EngineStartPriority(EngineStartPriority.DefaultPriority - 10)]
     public class SettingConfigurationEngine : IAutofacEngine

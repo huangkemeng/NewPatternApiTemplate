@@ -1,6 +1,6 @@
 ﻿using Mediator.Net.Contracts;
 
-namespace NewPattern.Api.Primary.Contracts.Bases
+namespace RenameMe.Api.Primary.Contracts.Bases
 {
     public interface IContract<T> where T : IMessage
     {

@@ -1,4 +1,4 @@
-﻿namespace NewPattern.Api.Infrastructure.EfCore.Entities.Bases
+﻿namespace RenameMe.Api.Infrastructure.EfCore.Entities.Bases
 {
     /// <summary>
     /// 所有的表都应该基于本接口  

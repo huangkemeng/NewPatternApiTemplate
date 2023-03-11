@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NewPattern.Api.Infrastructure.EfCore.Entities.Bases;
+using RenameMe.Api.Infrastructure.EfCore.Entities.Bases;
 using System.Data;
 using System.Reflection;
 using System.Reflection.Emit;
 using PropertyBuilder = Microsoft.EntityFrameworkCore.Metadata.Builders.PropertyBuilder;
 
-namespace NewPattern.Api.Infrastructure.Bases
+namespace RenameMe.Api.Infrastructure.Bases
 {
     public static class EntityConfigureExtension
     {

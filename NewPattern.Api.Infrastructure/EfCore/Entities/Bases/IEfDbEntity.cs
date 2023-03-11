@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace NewPattern.Api.Infrastructure.EfCore.Entities.Bases
+namespace RenameMe.Api.Infrastructure.EfCore.Entities.Bases
 {
     /// <summary>
     ///  Ef实体请实现该接口

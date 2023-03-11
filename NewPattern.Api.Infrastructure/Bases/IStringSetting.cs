@@ -1,4 +1,4 @@
-﻿namespace NewPattern.Api.Infrastructure.Bases
+﻿namespace RenameMe.Api.Infrastructure.Bases
 {
     public interface IStringSetting : ISetting
     {

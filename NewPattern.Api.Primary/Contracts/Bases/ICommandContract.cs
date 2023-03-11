@@ -1,6 +1,6 @@
 ﻿using Mediator.Net.Contracts;
 
-namespace NewPattern.Api.Primary.Contracts.Bases
+namespace RenameMe.Api.Primary.Contracts.Bases
 {
     public interface ICommandContract<TCommand, TResponse> : IContract<TCommand>, ICommandHandler<TCommand, TResponse> where TCommand : ICommand where TResponse : IResponse
     {

@@ -1,4 +1,4 @@
-﻿namespace NewPattern.Api.Engines.Bases
+﻿namespace RenameMe.Api.Engines.Bases
 {
     /// <summary>
     /// 值越小 优先级越高

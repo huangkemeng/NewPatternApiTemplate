@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using Mediator.Net.Contracts;
 
-namespace NewPattern.Api.Primary.Contracts.Bases
+namespace RenameMe.Api.Primary.Contracts.Bases
 {
     public class ContractValidationContext : ValidationContext<IMessage>
     {

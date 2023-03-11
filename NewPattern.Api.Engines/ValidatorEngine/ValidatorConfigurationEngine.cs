@@ -1,10 +1,10 @@
 ﻿using Autofac;
 using FluentValidation;
-using NewPattern.Api.Engines.Bases;
-using NewPattern.Api.Primary.Contracts.Bases;
-using NewPattern.Api.Realization.Bases;
+using RenameMe.Api.Engines.Bases;
+using RenameMe.Api.Primary.Contracts.Bases;
+using RenameMe.Api.Realization.Bases;
 
-namespace NewPattern.Api.Engines.ValidatorEngine
+namespace RenameMe.Api.Engines.ValidatorEngine
 {
     [EngineStartPriority(EngineStartPriority.DefaultPriority - 8)]
     public class ValidatorConfigurationEngine : IAutofacEngine

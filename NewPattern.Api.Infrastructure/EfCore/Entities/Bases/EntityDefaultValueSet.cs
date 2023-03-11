@@ -1,5 +1,5 @@
 ﻿
-namespace NewPattern.Api.Infrastructure.EfCore.Entities.Bases
+namespace RenameMe.Api.Infrastructure.EfCore.Entities.Bases
 {
     public static class EntityDefaultValueSet
     {

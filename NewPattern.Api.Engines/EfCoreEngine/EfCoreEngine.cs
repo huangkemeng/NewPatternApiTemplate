@@ -2,11 +2,11 @@
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using NewPattern.Api.Engines.Bases;
-using NewPattern.Api.Infrastructure.EfCore;
-using NewPattern.Api.Infrastructure.EfCore.Entities.Bases;
+using RenameMe.Api.Engines.Bases;
+using RenameMe.Api.Infrastructure.EfCore;
+using RenameMe.Api.Infrastructure.EfCore.Entities.Bases;
 
-namespace NewPattern.Api.Engines.MongoDbEngine
+namespace RenameMe.Api.Engines.MongoDbEngine
 {
     [EngineStartPriority(EngineStartPriority.DefaultPriority - 9)]
     public class ConfigureEfCoreEngine : IAutofacEngine

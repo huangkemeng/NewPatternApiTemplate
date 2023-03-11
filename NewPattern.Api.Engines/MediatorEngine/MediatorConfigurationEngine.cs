@@ -3,11 +3,11 @@ using FluentValidation;
 using Mediator.Net;
 using Mediator.Net.Autofac;
 using Mediator.Net.Binding;
-using NewPattern.Api.Engines.Bases;
-using NewPattern.Api.Primary.Contracts.Bases;
-using NewPattern.Api.Realization.Bases;
+using RenameMe.Api.Engines.Bases;
+using RenameMe.Api.Primary.Contracts.Bases;
+using RenameMe.Api.Realization.Bases;
 
-namespace NewPattern.Api.Engines.MediatorEngine
+namespace RenameMe.Api.Engines.MediatorEngine
 {
     [EngineStartPriority(EngineStartPriority.DefaultPriority - 5)]
     public class MediatorConfigurationEngine : IAutofacEngine

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Builder;
 using System.Reflection;
 
-namespace NewPattern.Api.Engines.Bases
+namespace RenameMe.Api.Engines.Bases
 {
     public static class EngineHub
     {

@@ -3,7 +3,7 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 using System.ComponentModel;
 using System.Reflection;
 
-namespace NewPattern.Api.Engines.SwaggerEngine
+namespace RenameMe.Api.Engines.SwaggerEngine
 {
     public class DisplayEnumDescFilter : ISchemaFilter
     {

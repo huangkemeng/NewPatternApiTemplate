@@ -3,11 +3,11 @@ using Mediator.Net;
 using Mediator.Net.Context;
 using Mediator.Net.Contracts;
 using Mediator.Net.Pipeline;
-using NewPattern.Api.Primary.Contracts.Bases;
-using NewPattern.Api.Realization.Bases;
+using RenameMe.Api.Primary.Contracts.Bases;
+using RenameMe.Api.Realization.Bases;
 using System.Runtime.ExceptionServices;
 
-namespace NewPattern.Api.Engines.MediatorEngine
+namespace RenameMe.Api.Engines.MediatorEngine
 {
     public class DoValidatePipe : IPipeSpecification<IReceiveContext<IMessage>>
     {

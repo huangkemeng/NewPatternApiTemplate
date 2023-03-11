@@ -1,6 +1,6 @@
-﻿using NewPattern.Api.Infrastructure.Bases;
+﻿using RenameMe.Api.Infrastructure.Bases;
 
-namespace NewPattern.Api.Infrastructure.EfCore
+namespace RenameMe.Api.Infrastructure.EfCore
 {
     public class DbSetting : IJsonFileSetting
     {

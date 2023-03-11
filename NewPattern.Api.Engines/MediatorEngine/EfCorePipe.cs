@@ -5,7 +5,7 @@ using Mediator.Net.Pipeline;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.ExceptionServices;
 
-namespace NewPattern.Api.Engines.MediatorEngine
+namespace RenameMe.Api.Engines.MediatorEngine
 {
     public class EfCorePipe : IPipeSpecification<IReceiveContext<IMessage>>
     {

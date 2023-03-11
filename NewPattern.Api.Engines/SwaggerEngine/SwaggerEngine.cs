@@ -2,9 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using NewPattern.Api.Engines.Bases;
+using RenameMe.Api.Engines.Bases;
 
-namespace NewPattern.Api.Engines.SwaggerEngine
+namespace RenameMe.Api.Engines.SwaggerEngine
 {
     public class SwaggerConfigurationEngine : IEngine<IServiceCollection>
     {

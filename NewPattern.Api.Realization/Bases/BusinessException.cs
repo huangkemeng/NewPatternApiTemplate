@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Reflection;
 
-namespace NewPattern.Api.Realization.Bases
+namespace RenameMe.Api.Realization.Bases
 {
     public class BusinessException : Exception
     {

@@ -1,4 +1,4 @@
-﻿namespace NewPattern.Api.Engines.Bases
+﻿namespace RenameMe.Api.Engines.Bases
 {
     public interface IEngine<T>
     {
